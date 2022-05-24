@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E396753283CE8D500795C2A /* ReadexPro-bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4E396750283CE8D400795C2A /* ReadexPro-bold.ttf */; };
+		4E396754283CE8D500795C2A /* ReadexPro-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4E396751283CE8D500795C2A /* ReadexPro-Light.ttf */; };
+		4E396755283CE8D500795C2A /* ReadexPro-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4E396752283CE8D500795C2A /* ReadexPro-Medium.ttf */; };
 		4E696C44283CE63B00450D82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E696C43283CE63B00450D82 /* AppDelegate.swift */; };
 		4E696C46283CE63B00450D82 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E696C45283CE63B00450D82 /* SceneDelegate.swift */; };
 		4E696C48283CE63B00450D82 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E696C47283CE63B00450D82 /* ViewController.swift */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4E396750283CE8D400795C2A /* ReadexPro-bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ReadexPro-bold.ttf"; sourceTree = "<group>"; };
+		4E396751283CE8D500795C2A /* ReadexPro-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ReadexPro-Light.ttf"; sourceTree = "<group>"; };
+		4E396752283CE8D500795C2A /* ReadexPro-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ReadexPro-Medium.ttf"; sourceTree = "<group>"; };
 		4E696C40283CE63B00450D82 /* CalculatorB2B.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalculatorB2B.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E696C43283CE63B00450D82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4E696C45283CE63B00450D82 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +43,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4E396757283CE8EB00795C2A /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				4E396750283CE8D400795C2A /* ReadexPro-bold.ttf */,
+				4E396751283CE8D500795C2A /* ReadexPro-Light.ttf */,
+				4E396752283CE8D500795C2A /* ReadexPro-Medium.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
 		4E696C37283CE63B00450D82 = {
 			isa = PBXGroup;
 			children = (
@@ -63,6 +79,7 @@
 				4E696C4C283CE63D00450D82 /* Assets.xcassets */,
 				4E696C4E283CE63D00450D82 /* LaunchScreen.storyboard */,
 				4E696C51283CE63D00450D82 /* Info.plist */,
+				4E396757283CE8EB00795C2A /* fonts */,
 			);
 			path = CalculatorB2B;
 			sourceTree = "<group>";
@@ -127,6 +144,9 @@
 			files = (
 				4E696C50283CE63D00450D82 /* LaunchScreen.storyboard in Resources */,
 				4E696C4D283CE63D00450D82 /* Assets.xcassets in Resources */,
+				4E396753283CE8D500795C2A /* ReadexPro-bold.ttf in Resources */,
+				4E396754283CE8D500795C2A /* ReadexPro-Light.ttf in Resources */,
+				4E396755283CE8D500795C2A /* ReadexPro-Medium.ttf in Resources */,
 				4E696C4B283CE63B00450D82 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
