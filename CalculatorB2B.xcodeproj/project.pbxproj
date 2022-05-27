@@ -336,6 +336,7 @@
 				DEVELOPMENT_TEAM = W6V4RR3FKW;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CalculatorB2B/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Kalkulator B2B";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -365,6 +366,7 @@
 				DEVELOPMENT_TEAM = W6V4RR3FKW;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CalculatorB2B/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Kalkulator B2B";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
