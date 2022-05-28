@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BSj-ee-gST">
     <device id="retina6_0" orientation="portrait" appearance="dark"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
@@ -55,14 +55,14 @@
                                                         <rect key="frame" x="0.0" y="0.0" width="390" height="56.333333333333336"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Netto miesięcznie" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hpF-at-rfE">
-                                                                <rect key="frame" x="108.66666666666669" y="15.666666666666657" width="173" height="25"/>
+                                                                <rect key="frame" x="108.66666666666669" y="5.6666666666666572" width="173" height="25"/>
                                                                 <fontDescription key="fontDescription" name="ReadexPro-Medium" family="Readex Pro" pointSize="20"/>
                                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                         </subviews>
                                                         <constraints>
-                                                            <constraint firstItem="hpF-at-rfE" firstAttribute="centerY" secondItem="C1N-Ai-qC5" secondAttribute="centerY" id="7kW-e9-oDj"/>
+                                                            <constraint firstItem="hpF-at-rfE" firstAttribute="centerY" secondItem="C1N-Ai-qC5" secondAttribute="centerY" constant="-10" id="7kW-e9-oDj"/>
                                                             <constraint firstItem="hpF-at-rfE" firstAttribute="centerX" secondItem="C1N-Ai-qC5" secondAttribute="centerX" id="8wi-fB-O5Q"/>
                                                         </constraints>
                                                     </view>
@@ -239,17 +239,17 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wSq-GK-BYz" userLabel="Module 5">
                                         <rect key="frame" x="0.0" y="457.66666666666669" width="390" height="113.33333333333331"/>
                                         <subviews>
-                                            <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="58" translatesAutoresizingMaskIntoConstraints="NO" id="S7C-63-283">
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" alignment="center" spacing="58" translatesAutoresizingMaskIntoConstraints="NO" id="S7C-63-283">
                                                 <rect key="frame" x="15" y="0.0" width="360" height="113.33333333333333"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ubezpieczenie chorobowe" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="4dh-sP-FGt">
-                                                        <rect key="frame" x="0.0" y="44.333333333333314" width="253" height="25"/>
+                                                        <rect key="frame" x="0.0" y="44.333333333333314" width="252.66666666666666" height="25"/>
                                                         <fontDescription key="fontDescription" name="ReadexPro-Medium" family="Readex Pro" pointSize="20"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cUx-8v-tfg">
-                                                        <rect key="frame" x="311" y="41.333333333333314" width="51" height="31"/>
+                                                        <rect key="frame" x="310.66666666666669" y="41.333333333333314" width="51.333333333333314" height="31"/>
                                                         <color key="onTintColor" red="0.0078431372549019607" green="0.44705882352941173" blue="0.99607843137254903" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     </switch>
                                                 </subviews>
@@ -416,196 +416,225 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Wallpaper" translatesAutoresizingMaskIntoConstraints="NO" id="Hwy-tm-cDM" userLabel="Wallpaper">
                                 <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Podsumowanie" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GQz-Xg-tOP">
-                                <rect key="frame" x="42" y="78" width="306" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="ReadexPro-bold" family="Readex Pro" pointSize="40"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="handbutton" translatesAutoresizingMaskIntoConstraints="NO" id="r8l-en-t4o">
-                                <rect key="frame" x="16" y="174" width="70" height="70"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Na rękę" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="arF-8b-ijh">
-                                <rect key="frame" x="94" y="191" width="77" height="25"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="ReadexPro-Medium" family="Readex Pro" pointSize="20"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="7163.83 zł" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="42q-Z2-q3n">
-                                <rect key="frame" x="232" y="191" width="142" height="25"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="ReadexPro-Medium" family="Readex Pro" pointSize="20"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="changedbutton" translatesAutoresizingMaskIntoConstraints="NO" id="cAG-TV-d5K">
-                                <rect key="frame" x="16" y="252" width="70" height="70"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Podatek VAT" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gUE-3F-phB">
-                                <rect key="frame" x="94" y="269" width="124" height="25"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="ReadexPro-Medium" family="Readex Pro" pointSize="20"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2300 zł" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i7E-TW-mMR">
-                                <rect key="frame" x="232" y="269" width="142" height="25"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="ReadexPro-Medium" family="Readex Pro" pointSize="20"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="moneybutton" translatesAutoresizingMaskIntoConstraints="NO" id="eE7-C0-1AN">
-                                <rect key="frame" x="16" y="330" width="70" height="70"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gc1-d4-ouL">
-                                <rect key="frame" x="94" y="335" width="113" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <attributedString key="attributedText">
-                                    <fragment content="Podatek dochodowy">
-                                        <attributes>
-                                            <color key="NSColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            <font key="NSFont" size="20" name="ReadexPro-Medium"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1065 zł" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DGo-ze-fXw">
-                                <rect key="frame" x="232" y="348" width="142" height="25"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="ReadexPro-Medium" family="Readex Pro" pointSize="20"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="buildbutton" translatesAutoresizingMaskIntoConstraints="NO" id="zrs-dm-l41">
-                                <rect key="frame" x="16" y="408" width="70" height="70"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ZUS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dQd-Cp-ubg">
-                                <rect key="frame" x="94" y="425" width="41" height="25"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="ReadexPro-Medium" family="Readex Pro" pointSize="20"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1770.17 zł" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jlo-QH-czf">
-                                <rect key="frame" x="232" y="425" width="142" height="25"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="ReadexPro-Medium" family="Readex Pro" pointSize="20"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Składka zdrowotna" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xh5-ha-lVH">
-                                <rect key="frame" x="94" y="478" width="139" height="19"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="ReadexPro-Medium" family="Readex Pro" pointSize="15"/>
-                                <color key="textColor" red="0.792156862745098" green="0.78823529411764703" blue="0.78823529411764703" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="559.89 zł" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gcz-Ip-g9Y">
-                                <rect key="frame" x="253" y="479" width="121" height="18"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="ReadexPro-Medium" family="Readex Pro" pointSize="14"/>
-                                <color key="textColor" red="0.792156862745098" green="0.78823529411764703" blue="0.78823529411764703" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Składka emerytalna" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Df3-1J-PyI">
-                                <rect key="frame" x="94" y="505" width="146" height="19"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="ReadexPro-Medium" family="Readex Pro" pointSize="15"/>
-                                <color key="textColor" red="0.792156862745098" green="0.78823529411764703" blue="0.78823529411764703" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="693.58 zł" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yxC-2r-DFf">
-                                <rect key="frame" x="253" y="506" width="121" height="18"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="ReadexPro-Medium" family="Readex Pro" pointSize="14"/>
-                                <color key="textColor" red="0.792156862745098" green="0.78823529411764703" blue="0.78823529411764703" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Składka rentowa" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Tv-1I-rPy">
-                                <rect key="frame" x="94" y="532" width="122" height="19"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="ReadexPro-Medium" family="Readex Pro" pointSize="15"/>
-                                <color key="textColor" red="0.792156862745098" green="0.78823529411764703" blue="0.78823529411764703" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="284.26 zł" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dCH-du-M67">
-                                <rect key="frame" x="253" y="533" width="121" height="18"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="ReadexPro-Medium" family="Readex Pro" pointSize="14"/>
-                                <color key="textColor" red="0.792156862745098" green="0.78823529411764703" blue="0.78823529411764703" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Składka wypadkowa" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rmb-u0-nY7">
-                                <rect key="frame" x="94" y="559" width="150" height="19"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="ReadexPro-Medium" family="Readex Pro" pointSize="15"/>
-                                <color key="textColor" red="0.792156862745098" green="0.78823529411764703" blue="0.78823529411764703" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="59.34 zł" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VQw-u5-X1Q">
-                                <rect key="frame" x="253" y="560" width="121" height="18"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="ReadexPro-Medium" family="Readex Pro" pointSize="14"/>
-                                <color key="textColor" red="0.792156862745098" green="0.78823529411764703" blue="0.78823529411764703" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Fundusz Pracy" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w08-A2-0WW">
-                                <rect key="frame" x="94" y="586" width="106" height="19"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="ReadexPro-Medium" family="Readex Pro" pointSize="15"/>
-                                <color key="textColor" red="0.792156862745098" green="0.78823529411764703" blue="0.78823529411764703" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="87.05 zł" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aVE-bG-ksY">
-                                <rect key="frame" x="253" y="587" width="121" height="18"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="ReadexPro-Medium" family="Readex Pro" pointSize="14"/>
-                                <color key="textColor" red="0.792156862745098" green="0.78823529411764703" blue="0.78823529411764703" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Składka chorobowa" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T8C-nd-Y1t">
-                                <rect key="frame" x="94" y="613" width="144" height="19"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="ReadexPro-Medium" family="Readex Pro" pointSize="15"/>
-                                <color key="textColor" red="0.792156862745098" green="0.78823529411764703" blue="0.78823529411764703" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="87.05 zł" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UXD-hU-Cey">
-                                <rect key="frame" x="253" y="614" width="121" height="18"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="ReadexPro-Medium" family="Readex Pro" pointSize="14"/>
-                                <color key="textColor" red="0.792156862745098" green="0.78823529411764703" blue="0.78823529411764703" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hrm-61-EFx">
-                                <rect key="frame" x="83" y="710" width="224" height="79"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" image="returnbutton" title=""/>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Oblicz ponownie" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gai-rQ-AS3">
-                                <rect key="frame" x="116" y="732" width="159" height="25"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="ReadexPro-Medium" family="Readex Pro" pointSize="20"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="center" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="LLt-FT-XfC">
+                                <rect key="frame" x="0.0" y="44" width="390" height="800"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AJQ-1N-T0S" userLabel="Module 1">
+                                        <rect key="frame" x="0.0" y="0.0" width="390" height="97.666666666666671"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Podsumowanie" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GQz-Xg-tOP">
+                                                <rect key="frame" x="42.333333333333343" y="23.666666666666671" width="305.66666666666663" height="50"/>
+                                                <fontDescription key="fontDescription" name="ReadexPro-bold" family="Readex Pro" pointSize="40"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="GQz-Xg-tOP" firstAttribute="centerX" secondItem="AJQ-1N-T0S" secondAttribute="centerX" id="T8b-h7-xWN"/>
+                                            <constraint firstItem="GQz-Xg-tOP" firstAttribute="centerY" secondItem="AJQ-1N-T0S" secondAttribute="centerY" id="ggN-3y-AOz"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oog-Dq-Aa7" userLabel="Module 2">
+                                        <rect key="frame" x="0.0" y="98.666666666666657" width="390" height="86.666666666666657"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="handbutton" translatesAutoresizingMaskIntoConstraints="NO" id="r8l-en-t4o">
+                                                <rect key="frame" x="20" y="20.333333333333343" width="58" height="58"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Na rękę" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="arF-8b-ijh">
+                                                <rect key="frame" x="88" y="30.666666666666686" width="76.333333333333314" height="25"/>
+                                                <fontDescription key="fontDescription" name="ReadexPro-Medium" family="Readex Pro" pointSize="20"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="7163.83 zł" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="42q-Z2-q3n">
+                                                <rect key="frame" x="280.66666666666669" y="30.666666666666686" width="89.333333333333314" height="25"/>
+                                                <fontDescription key="fontDescription" name="ReadexPro-Medium" family="Readex Pro" pointSize="20"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="r8l-en-t4o" firstAttribute="centerY" secondItem="oog-Dq-Aa7" secondAttribute="centerY" constant="6" id="32r-Hg-kco"/>
+                                            <constraint firstItem="arF-8b-ijh" firstAttribute="centerY" secondItem="oog-Dq-Aa7" secondAttribute="centerY" id="4PV-1n-QGO"/>
+                                            <constraint firstAttribute="trailing" secondItem="42q-Z2-q3n" secondAttribute="trailing" constant="20" id="5Bp-aF-jqf"/>
+                                            <constraint firstItem="arF-8b-ijh" firstAttribute="leading" secondItem="r8l-en-t4o" secondAttribute="trailing" constant="10" id="ETM-wK-aZk"/>
+                                            <constraint firstItem="42q-Z2-q3n" firstAttribute="centerY" secondItem="oog-Dq-Aa7" secondAttribute="centerY" id="eDV-oa-ZKA"/>
+                                            <constraint firstItem="r8l-en-t4o" firstAttribute="leading" secondItem="oog-Dq-Aa7" secondAttribute="leading" constant="20" id="eFj-Zj-hfb"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OBw-1B-vok" userLabel="Module 3">
+                                        <rect key="frame" x="0.0" y="186.33333333333334" width="390" height="87.333333333333343"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="changedbutton" translatesAutoresizingMaskIntoConstraints="NO" id="cAG-TV-d5K">
+                                                <rect key="frame" x="20" y="20.666666666666657" width="58" height="58"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Podatek VAT" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gUE-3F-phB">
+                                                <rect key="frame" x="88" y="30.999999999999972" width="124" height="25"/>
+                                                <fontDescription key="fontDescription" name="ReadexPro-Medium" family="Readex Pro" pointSize="20"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2300 zł" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i7E-TW-mMR">
+                                                <rect key="frame" x="303.66666666666669" y="30.999999999999972" width="66.333333333333314" height="25"/>
+                                                <fontDescription key="fontDescription" name="ReadexPro-Medium" family="Readex Pro" pointSize="20"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="gUE-3F-phB" firstAttribute="leading" secondItem="cAG-TV-d5K" secondAttribute="trailing" constant="10" id="7Km-MZ-8fp"/>
+                                            <constraint firstAttribute="trailing" secondItem="i7E-TW-mMR" secondAttribute="trailing" constant="20" id="TWc-GH-I1Q"/>
+                                            <constraint firstItem="gUE-3F-phB" firstAttribute="centerY" secondItem="OBw-1B-vok" secondAttribute="centerY" id="Zj2-n9-qbq"/>
+                                            <constraint firstItem="cAG-TV-d5K" firstAttribute="leading" secondItem="OBw-1B-vok" secondAttribute="leading" constant="20" id="fia-Sk-fIr"/>
+                                            <constraint firstItem="i7E-TW-mMR" firstAttribute="centerY" secondItem="OBw-1B-vok" secondAttribute="centerY" id="o5n-kD-984"/>
+                                            <constraint firstItem="cAG-TV-d5K" firstAttribute="centerY" secondItem="OBw-1B-vok" secondAttribute="centerY" constant="6" id="xvK-QD-LXR"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="B57-nd-WWX" userLabel="Module 4">
+                                        <rect key="frame" x="0.0" y="274.66666666666669" width="390" height="86.666666666666686"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="moneybutton" translatesAutoresizingMaskIntoConstraints="NO" id="eE7-C0-1AN">
+                                                <rect key="frame" x="20" y="20.333333333333314" width="58" height="58"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gc1-d4-ouL">
+                                                <rect key="frame" x="88" y="18.333333333333314" width="112.33333333333331" height="50"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="Podatek dochodowy">
+                                                        <attributes>
+                                                            <color key="NSColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <font key="NSFont" size="20" name="ReadexPro-Medium"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1065 zł" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DGo-ze-fXw">
+                                                <rect key="frame" x="305" y="31" width="65" height="25"/>
+                                                <fontDescription key="fontDescription" name="ReadexPro-Medium" family="Readex Pro" pointSize="20"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="Gc1-d4-ouL" firstAttribute="centerY" secondItem="B57-nd-WWX" secondAttribute="centerY" id="0Aj-Qm-HeQ"/>
+                                            <constraint firstItem="Gc1-d4-ouL" firstAttribute="leading" secondItem="eE7-C0-1AN" secondAttribute="trailing" constant="10" id="J9q-DI-YDW"/>
+                                            <constraint firstItem="eE7-C0-1AN" firstAttribute="centerY" secondItem="B57-nd-WWX" secondAttribute="centerY" constant="6" id="LCk-MQ-jUW"/>
+                                            <constraint firstItem="DGo-ze-fXw" firstAttribute="centerY" secondItem="B57-nd-WWX" secondAttribute="centerY" id="S85-S7-q1l"/>
+                                            <constraint firstAttribute="trailing" secondItem="DGo-ze-fXw" secondAttribute="trailing" constant="20" id="WnW-jL-8uj"/>
+                                            <constraint firstItem="eE7-C0-1AN" firstAttribute="leading" secondItem="B57-nd-WWX" secondAttribute="leading" constant="20" id="eo8-m8-7fu"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vbO-Id-pvq" userLabel="Module 5">
+                                        <rect key="frame" x="0.0" y="362.33333333333331" width="390" height="86.666666666666686"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="buildbutton" translatesAutoresizingMaskIntoConstraints="NO" id="zrs-dm-l41">
+                                                <rect key="frame" x="20" y="20.333333333333371" width="58" height="58"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ZUS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dQd-Cp-ubg">
+                                                <rect key="frame" x="88" y="31" width="40.333333333333343" height="25"/>
+                                                <fontDescription key="fontDescription" name="ReadexPro-Medium" family="Readex Pro" pointSize="20"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1770.17 zł" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jlo-QH-czf">
+                                                <rect key="frame" x="280.33333333333331" y="31" width="89.666666666666686" height="25"/>
+                                                <fontDescription key="fontDescription" name="ReadexPro-Medium" family="Readex Pro" pointSize="20"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="zrs-dm-l41" firstAttribute="leading" secondItem="vbO-Id-pvq" secondAttribute="leading" constant="20" id="5Ei-gQ-JYH"/>
+                                            <constraint firstItem="zrs-dm-l41" firstAttribute="centerY" secondItem="vbO-Id-pvq" secondAttribute="centerY" constant="6" id="7SB-hb-s8G"/>
+                                            <constraint firstItem="dQd-Cp-ubg" firstAttribute="leading" secondItem="zrs-dm-l41" secondAttribute="trailing" constant="10" id="B3G-xg-3sC"/>
+                                            <constraint firstItem="dQd-Cp-ubg" firstAttribute="centerY" secondItem="vbO-Id-pvq" secondAttribute="centerY" id="Yol-BD-UIA"/>
+                                            <constraint firstAttribute="trailing" secondItem="jlo-QH-czf" secondAttribute="trailing" constant="20" id="gYB-QS-e3Y"/>
+                                            <constraint firstItem="jlo-QH-czf" firstAttribute="centerY" secondItem="vbO-Id-pvq" secondAttribute="centerY" id="jft-z2-UJz"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HR4-Bc-8Lj" userLabel="Module 6">
+                                        <rect key="frame" x="0.0" y="449.99999999999994" width="390" height="224.33333333333331"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7L1-z6-JLj">
+                                                <rect key="frame" x="85.666666666666671" y="0.0" width="218.66666666666663" height="34"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="info" title="  Szczegółowe składki ZUS"/>
+                                                <connections>
+                                                    <segue destination="Qds-Tn-dO5" kind="show" id="mSb-Ir-u4Q"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="7L1-z6-JLj" firstAttribute="centerX" secondItem="HR4-Bc-8Lj" secondAttribute="centerX" id="mgv-41-gEu"/>
+                                            <constraint firstItem="7L1-z6-JLj" firstAttribute="top" secondItem="HR4-Bc-8Lj" secondAttribute="top" id="ocS-hE-8Eq"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="faP-6J-yW4" userLabel="Module 7">
+                                        <rect key="frame" x="0.0" y="675.33333333333337" width="390" height="124.66666666666663"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hrm-61-EFx">
+                                                <rect key="frame" x="68" y="26.333333333333258" width="254" height="72"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="returnbutton" title=""/>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Oblicz ponownie" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gai-rQ-AS3">
+                                                <rect key="frame" x="115.66666666666669" y="44.666666666666629" width="159" height="25"/>
+                                                <fontDescription key="fontDescription" name="ReadexPro-Medium" family="Readex Pro" pointSize="20"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="hrm-61-EFx" firstAttribute="centerY" secondItem="faP-6J-yW4" secondAttribute="centerY" id="6f6-xS-SoJ"/>
+                                            <constraint firstItem="gai-rQ-AS3" firstAttribute="centerX" secondItem="faP-6J-yW4" secondAttribute="centerX" id="NE6-Ne-h4U"/>
+                                            <constraint firstItem="gai-rQ-AS3" firstAttribute="centerY" secondItem="faP-6J-yW4" secondAttribute="centerY" constant="-5" id="Ucy-S2-alE"/>
+                                            <constraint firstItem="hrm-61-EFx" firstAttribute="centerX" secondItem="faP-6J-yW4" secondAttribute="centerX" id="cKy-mn-mTy"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="faP-6J-yW4" secondAttribute="trailing" id="3AI-g0-nJ9"/>
+                                    <constraint firstItem="faP-6J-yW4" firstAttribute="top" secondItem="HR4-Bc-8Lj" secondAttribute="bottom" constant="1" id="BTj-bI-R9p"/>
+                                    <constraint firstItem="B57-nd-WWX" firstAttribute="top" secondItem="OBw-1B-vok" secondAttribute="bottom" constant="1" id="Dq2-9M-XQd"/>
+                                    <constraint firstAttribute="bottom" secondItem="faP-6J-yW4" secondAttribute="bottom" id="E75-Wa-gNU"/>
+                                    <constraint firstItem="AJQ-1N-T0S" firstAttribute="top" secondItem="LLt-FT-XfC" secondAttribute="top" id="K0j-Z9-4jH"/>
+                                    <constraint firstItem="OBw-1B-vok" firstAttribute="top" secondItem="oog-Dq-Aa7" secondAttribute="bottom" constant="1" id="M59-Tt-Is0"/>
+                                    <constraint firstAttribute="trailing" secondItem="HR4-Bc-8Lj" secondAttribute="trailing" id="NcX-b5-kt3"/>
+                                    <constraint firstItem="AJQ-1N-T0S" firstAttribute="leading" secondItem="LLt-FT-XfC" secondAttribute="leading" id="P7V-Xu-DgN"/>
+                                    <constraint firstItem="B57-nd-WWX" firstAttribute="leading" secondItem="LLt-FT-XfC" secondAttribute="leading" id="RiB-Ts-fUG"/>
+                                    <constraint firstAttribute="trailing" secondItem="vbO-Id-pvq" secondAttribute="trailing" id="W0S-DT-4lo"/>
+                                    <constraint firstItem="HR4-Bc-8Lj" firstAttribute="top" secondItem="vbO-Id-pvq" secondAttribute="bottom" constant="1" id="Wuz-rq-Yik"/>
+                                    <constraint firstItem="vbO-Id-pvq" firstAttribute="top" secondItem="B57-nd-WWX" secondAttribute="bottom" constant="1" id="aOv-nX-jAp"/>
+                                    <constraint firstItem="vbO-Id-pvq" firstAttribute="leading" secondItem="LLt-FT-XfC" secondAttribute="leading" id="ceN-q5-m4K"/>
+                                    <constraint firstAttribute="trailing" secondItem="AJQ-1N-T0S" secondAttribute="trailing" id="e0W-5a-HmN"/>
+                                    <constraint firstAttribute="trailing" secondItem="B57-nd-WWX" secondAttribute="trailing" id="fNb-JX-aSm"/>
+                                    <constraint firstItem="oog-Dq-Aa7" firstAttribute="top" secondItem="AJQ-1N-T0S" secondAttribute="bottom" constant="1" id="g2M-K4-xsr"/>
+                                    <constraint firstItem="HR4-Bc-8Lj" firstAttribute="top" secondItem="vbO-Id-pvq" secondAttribute="bottom" constant="1" id="gNa-dH-wFv"/>
+                                    <constraint firstItem="OBw-1B-vok" firstAttribute="leading" secondItem="LLt-FT-XfC" secondAttribute="leading" id="hhB-zk-fsf"/>
+                                    <constraint firstItem="OBw-1B-vok" firstAttribute="top" secondItem="oog-Dq-Aa7" secondAttribute="bottom" constant="1" id="j7I-6h-WXi"/>
+                                    <constraint firstItem="oog-Dq-Aa7" firstAttribute="top" secondItem="AJQ-1N-T0S" secondAttribute="bottom" constant="1" id="jKo-ql-9W1"/>
+                                    <constraint firstAttribute="trailing" secondItem="OBw-1B-vok" secondAttribute="trailing" id="jio-bi-pyn"/>
+                                    <constraint firstAttribute="trailing" secondItem="oog-Dq-Aa7" secondAttribute="trailing" id="ljC-dw-6na"/>
+                                    <constraint firstItem="HR4-Bc-8Lj" firstAttribute="leading" secondItem="LLt-FT-XfC" secondAttribute="leading" id="rnN-Pi-xfo"/>
+                                    <constraint firstItem="faP-6J-yW4" firstAttribute="top" secondItem="HR4-Bc-8Lj" secondAttribute="bottom" constant="1" id="swI-10-Gjj"/>
+                                    <constraint firstItem="vbO-Id-pvq" firstAttribute="top" secondItem="B57-nd-WWX" secondAttribute="bottom" constant="1" id="tCr-hQ-2mq"/>
+                                    <constraint firstItem="oog-Dq-Aa7" firstAttribute="leading" secondItem="LLt-FT-XfC" secondAttribute="leading" id="tEX-48-gps"/>
+                                    <constraint firstItem="B57-nd-WWX" firstAttribute="top" secondItem="OBw-1B-vok" secondAttribute="bottom" constant="1" id="uS2-VS-4Vz"/>
+                                    <constraint firstItem="faP-6J-yW4" firstAttribute="leading" secondItem="LLt-FT-XfC" secondAttribute="leading" id="vdD-qq-EEo"/>
+                                </constraints>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ogY-Sy-X13"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="Hwy-tm-cDM" secondAttribute="trailing" id="42A-2W-dR8"/>
+                            <constraint firstAttribute="bottom" secondItem="LLt-FT-XfC" secondAttribute="bottom" id="7xv-Sv-4Qt"/>
                             <constraint firstItem="Hwy-tm-cDM" firstAttribute="leading" secondItem="CDS-Sa-Cr0" secondAttribute="leading" id="TB2-8b-vlN"/>
                             <constraint firstItem="Hwy-tm-cDM" firstAttribute="top" secondItem="CDS-Sa-Cr0" secondAttribute="top" id="aag-dc-Bn9"/>
+                            <constraint firstItem="LLt-FT-XfC" firstAttribute="leading" secondItem="CDS-Sa-Cr0" secondAttribute="leading" id="eQG-94-wcK"/>
+                            <constraint firstItem="LLt-FT-XfC" firstAttribute="top" secondItem="ogY-Sy-X13" secondAttribute="top" id="uk2-Bc-lsO"/>
+                            <constraint firstAttribute="trailing" secondItem="LLt-FT-XfC" secondAttribute="trailing" id="xmV-6n-AGt"/>
                             <constraint firstAttribute="bottom" secondItem="Hwy-tm-cDM" secondAttribute="bottom" id="ya2-tt-UyH"/>
                         </constraints>
                     </view>
@@ -615,6 +644,196 @@
             </objects>
             <point key="canvasLocation" x="890.76923076923072" y="95.97156398104265"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="gAq-S7-8Mq">
+            <objects>
+                <viewController id="Qds-Tn-dO5" customClass="ViewController" customModule="CalculatorB2B" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="UdU-Cy-hCs">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Wallpaper" translatesAutoresizingMaskIntoConstraints="NO" id="y4o-tH-FMU" userLabel="Wallpaper">
+                                <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="center" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="2Rt-S3-Fyx">
+                                <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="k3q-Fl-eDv" userLabel="Module 1">
+                                        <rect key="frame" x="0.0" y="0.0" width="390" height="102.33333333333333"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Składki ZUS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3qt-fg-tqN">
+                                                <rect key="frame" x="102.00000000000001" y="32.333333333333343" width="186.33333333333337" height="37.666666666666657"/>
+                                                <fontDescription key="fontDescription" name="ReadexPro-bold" family="Readex Pro" pointSize="30"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="3qt-fg-tqN" firstAttribute="centerY" secondItem="k3q-Fl-eDv" secondAttribute="centerY" id="A9p-2M-vca"/>
+                                            <constraint firstItem="3qt-fg-tqN" firstAttribute="centerX" secondItem="k3q-Fl-eDv" secondAttribute="centerX" id="FcM-Zv-ftm"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3xK-i1-jV4" userLabel="Module 2">
+                                        <rect key="frame" x="0.0" y="103.33333333333331" width="390" height="562.33333333333348"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Składka zdrowotna" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="66l-gj-dDw">
+                                                <rect key="frame" x="20" y="4" width="139" height="19"/>
+                                                <fontDescription key="fontDescription" name="ReadexPro-Medium" family="Readex Pro" pointSize="15"/>
+                                                <color key="textColor" red="0.79215686269999996" green="0.78823529410000004" blue="0.78823529410000004" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="559.89 zł" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wzx-Nw-Ltj">
+                                                <rect key="frame" x="309" y="4" width="61" height="19"/>
+                                                <fontDescription key="fontDescription" name="ReadexPro-Medium" family="Readex Pro" pointSize="15"/>
+                                                <color key="textColor" red="0.79215686269999996" green="0.78823529410000004" blue="0.78823529410000004" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Składka emerytalna" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gjl-Gp-keb">
+                                                <rect key="frame" x="20" y="33.000000000000014" width="146" height="19"/>
+                                                <fontDescription key="fontDescription" name="ReadexPro-Medium" family="Readex Pro" pointSize="15"/>
+                                                <color key="textColor" red="0.79215686269999996" green="0.78823529410000004" blue="0.78823529410000004" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="693.58 zł" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="maT-pz-a64">
+                                                <rect key="frame" x="309.33333333333331" y="33.000000000000014" width="60.666666666666686" height="19"/>
+                                                <fontDescription key="fontDescription" name="ReadexPro-Medium" family="Readex Pro" pointSize="15"/>
+                                                <color key="textColor" red="0.79215686269999996" green="0.78823529410000004" blue="0.78823529410000004" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Składka rentowa" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NOJ-s3-Faf">
+                                                <rect key="frame" x="20.000000000000007" y="62.000000000000014" width="121.66666666666669" height="19"/>
+                                                <fontDescription key="fontDescription" name="ReadexPro-Medium" family="Readex Pro" pointSize="15"/>
+                                                <color key="textColor" red="0.79215686269999996" green="0.78823529410000004" blue="0.78823529410000004" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="284.26 zł" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aov-nY-apf">
+                                                <rect key="frame" x="308.33333333333331" y="62.000000000000014" width="61.666666666666686" height="19"/>
+                                                <fontDescription key="fontDescription" name="ReadexPro-Medium" family="Readex Pro" pointSize="15"/>
+                                                <color key="textColor" red="0.79215686269999996" green="0.78823529410000004" blue="0.78823529410000004" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Składka wypadkowa" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VNk-Cg-dr7">
+                                                <rect key="frame" x="20" y="91.000000000000014" width="150" height="19"/>
+                                                <fontDescription key="fontDescription" name="ReadexPro-Medium" family="Readex Pro" pointSize="15"/>
+                                                <color key="textColor" red="0.79215686269999996" green="0.78823529410000004" blue="0.78823529410000004" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="59.34 zł" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LBP-92-Zru">
+                                                <rect key="frame" x="317" y="91.000000000000014" width="53" height="19"/>
+                                                <fontDescription key="fontDescription" name="ReadexPro-Medium" family="Readex Pro" pointSize="15"/>
+                                                <color key="textColor" red="0.79215686269999996" green="0.78823529410000004" blue="0.78823529410000004" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fundusz Pracy" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N6b-26-aiu">
+                                                <rect key="frame" x="20.000000000000007" y="120" width="105.66666666666669" height="19"/>
+                                                <fontDescription key="fontDescription" name="ReadexPro-Medium" family="Readex Pro" pointSize="15"/>
+                                                <color key="textColor" red="0.79215686269999996" green="0.78823529410000004" blue="0.78823529410000004" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="87.05 zł" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tds-pP-YVQ">
+                                                <rect key="frame" x="318" y="120" width="52" height="19"/>
+                                                <fontDescription key="fontDescription" name="ReadexPro-Medium" family="Readex Pro" pointSize="15"/>
+                                                <color key="textColor" red="0.79215686269999996" green="0.78823529410000004" blue="0.78823529410000004" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="87.05 zł" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hes-DE-sld">
+                                                <rect key="frame" x="318" y="149" width="52" height="19"/>
+                                                <fontDescription key="fontDescription" name="ReadexPro-Medium" family="Readex Pro" pointSize="15"/>
+                                                <color key="textColor" red="0.79215686269999996" green="0.78823529410000004" blue="0.78823529410000004" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Składka chorobowa" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Krz-JL-PEc">
+                                                <rect key="frame" x="20" y="149" width="143.33333333333334" height="19"/>
+                                                <fontDescription key="fontDescription" name="ReadexPro-Medium" family="Readex Pro" pointSize="15"/>
+                                                <color key="textColor" red="0.79215686269999996" green="0.78823529410000004" blue="0.78823529410000004" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="Tds-pP-YVQ" firstAttribute="top" secondItem="LBP-92-Zru" secondAttribute="bottom" constant="10" id="1Qt-Mn-gAJ"/>
+                                            <constraint firstItem="wzx-Nw-Ltj" firstAttribute="top" secondItem="3xK-i1-jV4" secondAttribute="top" constant="4" id="270-kk-nBS"/>
+                                            <constraint firstItem="hes-DE-sld" firstAttribute="top" secondItem="Tds-pP-YVQ" secondAttribute="bottom" constant="10" id="2Rx-pt-g7V"/>
+                                            <constraint firstItem="66l-gj-dDw" firstAttribute="leading" secondItem="3xK-i1-jV4" secondAttribute="leading" constant="20" id="8Nx-OY-weT"/>
+                                            <constraint firstAttribute="trailing" secondItem="wzx-Nw-Ltj" secondAttribute="trailing" constant="20" id="930-4X-HOg"/>
+                                            <constraint firstItem="66l-gj-dDw" firstAttribute="top" secondItem="3xK-i1-jV4" secondAttribute="top" constant="4" id="9tR-dQ-U0Z"/>
+                                            <constraint firstItem="Krz-JL-PEc" firstAttribute="leading" secondItem="3xK-i1-jV4" secondAttribute="leading" constant="20" id="C28-UF-FpO"/>
+                                            <constraint firstAttribute="trailing" secondItem="hes-DE-sld" secondAttribute="trailing" constant="20" id="Ejf-ul-2pW"/>
+                                            <constraint firstItem="N6b-26-aiu" firstAttribute="leading" secondItem="3xK-i1-jV4" secondAttribute="leading" constant="20" id="I77-h7-UBt"/>
+                                            <constraint firstItem="Gjl-Gp-keb" firstAttribute="top" secondItem="66l-gj-dDw" secondAttribute="bottom" constant="10" id="IEJ-4u-77c"/>
+                                            <constraint firstItem="VNk-Cg-dr7" firstAttribute="leading" secondItem="3xK-i1-jV4" secondAttribute="leading" constant="20" id="Izq-Ud-eEd"/>
+                                            <constraint firstAttribute="trailing" secondItem="LBP-92-Zru" secondAttribute="trailing" constant="20" id="WlR-qF-sOU"/>
+                                            <constraint firstAttribute="trailing" secondItem="Tds-pP-YVQ" secondAttribute="trailing" constant="20" id="Z4a-ao-INC"/>
+                                            <constraint firstItem="NOJ-s3-Faf" firstAttribute="top" secondItem="Gjl-Gp-keb" secondAttribute="bottom" constant="10" id="adb-te-Du4"/>
+                                            <constraint firstItem="aov-nY-apf" firstAttribute="top" secondItem="maT-pz-a64" secondAttribute="bottom" constant="10" id="dre-1Y-t2U"/>
+                                            <constraint firstItem="VNk-Cg-dr7" firstAttribute="top" secondItem="NOJ-s3-Faf" secondAttribute="bottom" constant="10" id="fhe-qr-dNi"/>
+                                            <constraint firstItem="Krz-JL-PEc" firstAttribute="top" secondItem="N6b-26-aiu" secondAttribute="bottom" constant="10" id="iPG-Z4-OZX"/>
+                                            <constraint firstItem="maT-pz-a64" firstAttribute="top" secondItem="wzx-Nw-Ltj" secondAttribute="bottom" constant="10" id="lNu-q3-It3"/>
+                                            <constraint firstItem="Gjl-Gp-keb" firstAttribute="leading" secondItem="3xK-i1-jV4" secondAttribute="leading" constant="20" id="msv-C5-hWE"/>
+                                            <constraint firstAttribute="trailing" secondItem="maT-pz-a64" secondAttribute="trailing" constant="20" id="w4V-K4-38U"/>
+                                            <constraint firstItem="NOJ-s3-Faf" firstAttribute="leading" secondItem="3xK-i1-jV4" secondAttribute="leading" constant="20" id="wB2-hH-mng"/>
+                                            <constraint firstAttribute="trailing" secondItem="aov-nY-apf" secondAttribute="trailing" constant="20" id="wxj-zA-Ils"/>
+                                            <constraint firstItem="N6b-26-aiu" firstAttribute="top" secondItem="VNk-Cg-dr7" secondAttribute="bottom" constant="10" id="yU8-Ew-KxU"/>
+                                            <constraint firstItem="LBP-92-Zru" firstAttribute="top" secondItem="aov-nY-apf" secondAttribute="bottom" constant="10" id="yef-Fk-ZMz"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sA7-Gx-hLf" userLabel="Module 3">
+                                        <rect key="frame" x="0.0" y="666.66666666666663" width="390" height="123.33333333333337"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QaK-mh-5oL">
+                                                <rect key="frame" x="68" y="25.666666666666742" width="254" height="72"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="returnbutton" title=""/>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Powrót" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UhU-za-XpO">
+                                                <rect key="frame" x="161" y="44" width="68" height="25"/>
+                                                <fontDescription key="fontDescription" name="ReadexPro-Medium" family="Readex Pro" pointSize="20"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="QaK-mh-5oL" firstAttribute="centerX" secondItem="sA7-Gx-hLf" secondAttribute="centerX" id="7Od-Qf-fiu"/>
+                                            <constraint firstItem="UhU-za-XpO" firstAttribute="centerX" secondItem="sA7-Gx-hLf" secondAttribute="centerX" id="MLv-wi-lKA"/>
+                                            <constraint firstItem="QaK-mh-5oL" firstAttribute="centerY" secondItem="sA7-Gx-hLf" secondAttribute="centerY" id="RHS-Iq-1jI"/>
+                                            <constraint firstItem="UhU-za-XpO" firstAttribute="centerY" secondItem="sA7-Gx-hLf" secondAttribute="centerY" constant="-5" id="qWt-Vq-ZMb"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="k3q-Fl-eDv" firstAttribute="top" secondItem="2Rt-S3-Fyx" secondAttribute="top" id="4Yo-Ma-wAb"/>
+                                    <constraint firstItem="sA7-Gx-hLf" firstAttribute="top" secondItem="3xK-i1-jV4" secondAttribute="bottom" constant="1" id="53S-q9-vY6"/>
+                                    <constraint firstItem="3xK-i1-jV4" firstAttribute="top" secondItem="k3q-Fl-eDv" secondAttribute="bottom" constant="1" id="803-xG-3Mf"/>
+                                    <constraint firstAttribute="bottom" secondItem="sA7-Gx-hLf" secondAttribute="bottom" id="GoR-Ui-bM7"/>
+                                    <constraint firstAttribute="trailing" secondItem="3xK-i1-jV4" secondAttribute="trailing" id="Ph9-ng-1Zi"/>
+                                    <constraint firstItem="3xK-i1-jV4" firstAttribute="top" secondItem="k3q-Fl-eDv" secondAttribute="bottom" constant="1" id="UqH-UU-lIU"/>
+                                    <constraint firstItem="k3q-Fl-eDv" firstAttribute="leading" secondItem="2Rt-S3-Fyx" secondAttribute="leading" id="Xfo-P6-jBH"/>
+                                    <constraint firstAttribute="trailing" secondItem="sA7-Gx-hLf" secondAttribute="trailing" id="ZZc-Kn-Pbq"/>
+                                    <constraint firstItem="sA7-Gx-hLf" firstAttribute="leading" secondItem="2Rt-S3-Fyx" secondAttribute="leading" id="a5q-bj-Nr9"/>
+                                    <constraint firstItem="sA7-Gx-hLf" firstAttribute="top" secondItem="3xK-i1-jV4" secondAttribute="bottom" constant="1" id="hAU-jX-eJ4"/>
+                                    <constraint firstItem="3xK-i1-jV4" firstAttribute="leading" secondItem="2Rt-S3-Fyx" secondAttribute="leading" id="lUS-Rz-tEd"/>
+                                    <constraint firstAttribute="trailing" secondItem="k3q-Fl-eDv" secondAttribute="trailing" id="ziq-zM-AIq"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="DQw-BF-WLY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="2Rt-S3-Fyx" firstAttribute="top" secondItem="DQw-BF-WLY" secondAttribute="top" id="3Ia-Ad-9q0"/>
+                            <constraint firstItem="y4o-tH-FMU" firstAttribute="top" secondItem="UdU-Cy-hCs" secondAttribute="top" id="6Im-v4-bQF"/>
+                            <constraint firstAttribute="bottom" secondItem="y4o-tH-FMU" secondAttribute="bottom" id="9Zv-zu-c0f"/>
+                            <constraint firstItem="2Rt-S3-Fyx" firstAttribute="leading" secondItem="UdU-Cy-hCs" secondAttribute="leading" id="Sgy-nP-Vk0"/>
+                            <constraint firstAttribute="trailing" secondItem="y4o-tH-FMU" secondAttribute="trailing" id="WYI-BL-2yf"/>
+                            <constraint firstAttribute="bottom" secondItem="2Rt-S3-Fyx" secondAttribute="bottom" id="YLn-8y-1JG"/>
+                            <constraint firstAttribute="trailing" secondItem="2Rt-S3-Fyx" secondAttribute="trailing" id="dOy-rt-622"/>
+                            <constraint firstItem="y4o-tH-FMU" firstAttribute="leading" secondItem="UdU-Cy-hCs" secondAttribute="leading" id="s8e-0K-yj7"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="rLA-59-Zub"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oQr-s9-kiQ" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1621.5384615384614" y="95.97156398104265"/>
+        </scene>
     </scenes>
     <resources>
         <image name="Wallpaper" width="390" height="844"/>
@@ -622,6 +841,7 @@
         <image name="changedbutton" width="58" height="58"/>
         <image name="donebutton" width="137" height="58"/>
         <image name="handbutton" width="58" height="58"/>
+        <image name="info" width="20" height="20"/>
         <image name="moneybutton" width="58" height="58"/>
         <image name="returnbutton" width="230" height="58"/>
         <image name="textfield" width="258" height="64"/>
